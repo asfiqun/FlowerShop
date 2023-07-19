@@ -34,7 +34,7 @@
     height: 550px;
     margin-bottom: 0;    
 }
-.banner-desc button{
+.primary-btn{
     border-radius: 6px;
     background: #E55473;
     width: 120px;
@@ -102,4 +102,38 @@
     text-decoration: underline;
     font-size: 15pt;
 }
-
+.sale-section{
+    background: rgba(229, 84, 115, 0.05);
+    width: auto;
+    height: 400px;
+    display: flex;
+    align-items: center;   
+    padding: 30px 300px 0px 300px;
+    margin-top: 150px;
+}
+.sale-section h3{
+    text-align: center;
+    font-size: 20pt;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+}
+.colored{
+    color: #E55473;
+}
+.sale-section p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 550px;
+    width: 450px;
+    font-size: 10pt;
+}
+.sale-desc button{
+    margin:5px 0 ;
+    margin-left: 150px;
+    height: 50px;
+}
+.sale-pic{
+    width:230px;
+    margin: 0 150px;
+}
