@@ -1,0 +1,49 @@
+
+
+.banner{
+    background: rgba(229, 84, 115, 0.10);
+    width: auto;
+    height: 550px;
+    display: flex;
+    align-items: center;   
+    padding: 30px 100px 0px 180px;
+}
+
+.banner-desc{
+    width:780px;
+}
+.banner-desc h1{
+    color: #272727;
+    font-size: 50pt;
+    font-family: 'Lato', sans-serif;
+    padding-right: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.banner-desc p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 10pt;
+    width: 460px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 520;
+    padding: 5px 0;
+    
+}
+.banner-pic{
+    width: 700px;
+    height: 550px;
+    margin-bottom: 0;    
+}
+.banner-desc button{
+    border-radius: 6px;
+    background: #E55473;
+    width: 120px;
+    height: 35px;
+    border: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 10pt;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    font-weight: 800;
+}
