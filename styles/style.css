@@ -214,7 +214,7 @@
 .footer-section{
     background-color: #111010;
     width: auto;
-    height: 300px;
+    height: 200px;
     text-align: center;
     padding: 80px 100px;
     font-family: 'Lato', sans-serif;
@@ -238,5 +238,42 @@
     font-size: 9pt;
     font-weight: 400;
 }
+.review-section{
+    margin: 100px 200px 50px ;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.review-section h3{
+    font-size: 20pt;
+    color: #E55473;
+}
+.review-image{
+    height: 100px;
+    width: 100px;
+    border: 0;
+    border-radius: 100px;
+    
+}
+
+.reviews{
+    display: flex; 
+    gap:20px;
+    padding: 0 200px;
+}
+.customer-Review{
+    padding: 30px 5px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    width: 200px; 
+    margin-right: 5px;
+}
+.customer-Review h4{
+    font-size: 9pt;
+    color:black;
+    font-weight: 500;
+}
+
 
     
